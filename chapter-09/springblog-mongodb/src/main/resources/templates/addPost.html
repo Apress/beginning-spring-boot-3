@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      lang="en">
+<head>
+    <title>Spring Blog</title>
+</head>
+
+<body>
+<h1 th:text="#{blog.title}">Welcome to Spring Blog</h1>
+
+<form th:object="${post}" th:action="@{/posts}" method="post">
+    <div>
+        <label for="title" th:text="#{blog.label.title}">Title:</label>
+        <input id="title" th:field="*{title}" type="text"/>
+        <div style="color: red" th:if="${#fields.hasErrors('title')}" th:errors="*{title}">Invalid Title</div>
+    </div>
+    <div>
+        <label for="description" th:text="#{blog.label.description}">Description:</label>
+        <input id="description" th:field="*{description}" type="text"/>
+        <div style="color: red" th:if="${#fields.hasErrors('description')}" th:errors="*{description}">Invalid
+            Description
+        </div>
+    </div>
+    <div>
+        <label for="body" th:text="#{blog.label.body}">Body:</label>
+        <textarea id="body" th:field="*{body}"></textarea>
+
+        <div style="color:red" th:if="${#fields.hasErrors('body')}" th:errors="*{body}">Invalid Body</div>
+    </div>
+    <div>
+        <input type="submit">
+    </div>
+</form>
+</body>
+</html>

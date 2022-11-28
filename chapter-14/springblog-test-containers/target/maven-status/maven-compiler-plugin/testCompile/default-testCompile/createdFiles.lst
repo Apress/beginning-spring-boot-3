@@ -1,0 +1,5 @@
+com\apress\demo\springblog\BaseTest.class
+com\apress\demo\springblog\PostRepositoryTCTestExtend.class
+com\apress\demo\springblog\PostRepositoryTCTest.class
+com\apress\demo\springblog\PostRepositoryTCManualStartupTest.class
+com\apress\demo\springblog\SpringblogApplicationTests.class

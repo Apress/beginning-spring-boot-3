@@ -1,0 +1,4 @@
+com\apress\demo\Application.class
+com\apress\demo\User.class
+com\apress\demo\UserRepository.class
+com\apress\demo\HomeController.class

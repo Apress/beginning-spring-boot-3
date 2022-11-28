@@ -1,0 +1,6 @@
+com\apress\demo\controllers\PingControllerTests.class
+com\apress\demo\controllers\AdminRestControllerTests.class
+com\apress\demo\repositories\JdbcUserRepositoryTests.class
+com\apress\demo\services\UsersImportServiceMockitoTest.class
+com\apress\demo\controllers\TodoControllerTests.class
+com\apress\demo\controllers\TodoRestControllerTests.class

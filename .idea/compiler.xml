@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springblog-webflux-r2dbc" />
+        <module name="springboot-testing-demo" />
+        <module name="twitter4j-spring-boot-autoconfigure" />
+        <module name="springblog-native-latest" />
+        <module name="conditional" />
+        <module name="hello-springboot" />
+        <module name="springblog-test-containers" />
+        <module name="springblog-jooq" />
+        <module name="springblog-oauth2-resource-server" />
+        <module name="springboot-kotlin-demo" />
+        <module name="springblog-data-jpa" />
+        <module name="twitter4j-spring-boot-starter" />
+        <module name="springboot-basic" />
+        <module name="springblog-jdbc-with-springboot" />
+        <module name="springboot-actuator-demo" />
+        <module name="springblog" />
+        <module name="springboot-heroku-demo" />
+        <module name="springblog-oauth2-mvc" />
+        <module name="twitter4j-spring-boot-sample" />
+        <module name="springblog-mongodb" />
+        <module name="springblog-webflux" />
+        <module name="springblog-security-mvc" />
+        <module name="springblog-native" />
+        <module name="springboot-mybatis-demo" />
+        <module name="springboot-scala-demo" />
+        <module name="springblog-graphql" />
+        <module name="springblog-data-rest" />
+        <module name="springblog-webflux-functional" />
+        <module name="springboot-groovy-demo" />
+        <module name="authorization-server" />
+        <module name="springblog-jdbc-without-springboot" />
+        <module name="springboot-essentials" />
+        <module name="springblog-with-spring-data-jdbc" />
+        <module name="springblog-rest-api" />
+      </profile>
+      <profile name="Annotation profile for beginning-spring-boot-3" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-configuration-processor/2.7.3/spring-boot-configuration-processor-2.7.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.5.2.Final/mapstruct-processor-1.5.2.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.5.2.Final/mapstruct-1.5.2.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/hibernate/hibernate-jpamodelgen/5.6.10.Final/hibernate-jpamodelgen-5.6.10.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/jboss/logging/jboss-logging/3.4.3.Final/jboss-logging-3.4.3.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/glassfish/jaxb/jaxb-runtime/4.0.0/jaxb-runtime-4.0.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/glassfish/jaxb/txw2/4.0.0/txw2-4.0.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/sun/istack/istack-commons-runtime/4.1.1/istack-commons-runtime-4.1.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/glassfish/jaxb/jaxb-core/4.0.0/jaxb-core-4.0.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/jakarta/activation/jakarta.activation-api/2.1.0/jakarta.activation-api-2.1.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/eclipse/angus/angus-activation/1.0.0/angus-activation-1.0.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/junit/junit/4.13.2/junit-4.13.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" />
+        </processorPath>
+        <module name="jhipster-blog" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name=".mvn" target="1.5" />
+      <module name="springblog-actuator" target="17" />
+      <module name="springblog-security-mvc-starter" target="17" />
+      <module name="springmvc-jpa-demo" target="17" />
+      <module name="wrapper" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="authorization-server" options="-parameters" />
+      <module name="chapter-02" options="-parameters" />
+      <module name="chapter-03" options="-parameters" />
+      <module name="chapter-04" options="-parameters" />
+      <module name="chapter-05" options="-parameters" />
+      <module name="chapter-06" options="-parameters" />
+      <module name="chapter-07" options="-parameters" />
+      <module name="chapter-08" options="-parameters" />
+      <module name="chapter-09" options="-parameters" />
+      <module name="chapter-10" options="-parameters" />
+      <module name="chapter-11" options="-parameters" />
+      <module name="chapter-12" options="" />
+      <module name="chapter-13" options="-parameters" />
+      <module name="chapter-14" options="-parameters" />
+      <module name="chapter-15" options="-parameters" />
+      <module name="chapter-16" options="-parameters" />
+      <module name="chapter-17" options="-parameters" />
+      <module name="chapter-18" options="-parameters" />
+      <module name="chapter-19" options="-parameters" />
+      <module name="chapter-20" options="-parameters" />
+      <module name="chapter-21" options="-parameters" />
+      <module name="conditional" options="-parameters" />
+      <module name="hello-springboot" options="-parameters" />
+      <module name="jhipster-blog" options="" />
+      <module name="springblog" options="-parameters" />
+      <module name="springblog-actuator" options="-parameters" />
+      <module name="springblog-data-jpa" options="-parameters" />
+      <module name="springblog-data-rest" options="-parameters" />
+      <module name="springblog-graphql" options="-parameters" />
+      <module name="springblog-jdbc-with-springboot" options="-parameters" />
+      <module name="springblog-jdbc-without-springboot" options="-parameters" />
+      <module name="springblog-jooq" options="-parameters" />
+      <module name="springblog-mongodb" options="-parameters" />
+      <module name="springblog-native" options="-parameters" />
+      <module name="springblog-native-latest" options="-parameters" />
+      <module name="springblog-oauth2-mvc" options="-parameters" />
+      <module name="springblog-oauth2-resource-server" options="-parameters" />
+      <module name="springblog-rest-api" options="-parameters" />
+      <module name="springblog-security-mvc" options="-parameters" />
+      <module name="springblog-security-mvc-starter" options="-parameters" />
+      <module name="springblog-test-containers" options="-parameters" />
+      <module name="springblog-webflux" options="-parameters" />
+      <module name="springblog-webflux-functional" options="-parameters" />
+      <module name="springblog-webflux-r2dbc" options="-parameters" />
+      <module name="springblog-with-spring-data-jdbc" options="-parameters" />
+      <module name="springboot-actuator-demo" options="-parameters" />
+      <module name="springboot-basic" options="-parameters" />
+      <module name="springboot-essentials" options="-parameters" />
+      <module name="springboot-groovy-demo" options="-parameters" />
+      <module name="springboot-heroku-demo" options="-parameters" />
+      <module name="springboot-kotlin-demo" options="-parameters" />
+      <module name="springboot-mybatis-demo" options="-parameters" />
+      <module name="springboot-scala-demo" options="-parameters" />
+      <module name="springboot-testing-demo" options="-parameters" />
+      <module name="springmvc-jpa-demo" options="-parameters" />
+      <module name="twitter4j-spring-boot-autoconfigure" options="-parameters" />
+      <module name="twitter4j-spring-boot-sample" options="-parameters" />
+      <module name="twitter4j-spring-boot-starter" options="-parameters" />
+    </option>
+  </component>
+</project>

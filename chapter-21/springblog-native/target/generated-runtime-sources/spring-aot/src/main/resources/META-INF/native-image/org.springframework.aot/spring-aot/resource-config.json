@@ -1,0 +1,125 @@
+{
+  "resources": {
+    "includes": [
+      {
+        "pattern": "KeyStore.jks"
+      },
+      {
+        "pattern": "META-INF/MANIFEST.MF"
+      },
+      {
+        "pattern": "META-INF/jpa-named-queries.properties"
+      },
+      {
+        "pattern": "META-INF/services/.*"
+      },
+      {
+        "pattern": "META-INF/spring.binders"
+      },
+      {
+        "pattern": "META-INF/spring.components"
+      },
+      {
+        "pattern": "^META-INF/build-info.properties"
+      },
+      {
+        "pattern": "^META-INF/resources/.*"
+      },
+      {
+        "pattern": "^git.properties"
+      },
+      {
+        "pattern": "^public/.*"
+      },
+      {
+        "pattern": "^resources/.*"
+      },
+      {
+        "pattern": "^static/.*"
+      },
+      {
+        "pattern": "^templates/.*"
+      },
+      {
+        "pattern": "application.*.properties"
+      },
+      {
+        "pattern": "application.*.yaml"
+      },
+      {
+        "pattern": "application.*.yml"
+      },
+      {
+        "pattern": "application.properties"
+      },
+      {
+        "pattern": "banner.txt"
+      },
+      {
+        "pattern": "data.sql"
+      },
+      {
+        "pattern": "db/.*"
+      },
+      {
+        "pattern": "hibernate.properties"
+      },
+      {
+        "pattern": "logging.properties"
+      },
+      {
+        "pattern": "messages.properties"
+      },
+      {
+        "pattern": "messages/.*"
+      },
+      {
+        "pattern": "messages_de.properties"
+      },
+      {
+        "pattern": "org/apache/catalina/startup/MimeTypeMappings.properties"
+      },
+      {
+        "pattern": "org/h2/util/data.zip"
+      },
+      {
+        "pattern": "org/hibernate/.*.dtd"
+      },
+      {
+        "pattern": "org/hibernate/.*.xsd"
+      },
+      {
+        "pattern": "org/springframework/boot/autoconfigure/transaction/TransactionAutoConfiguration\\$EnableTransactionManagementConfiguration\\$JdkDynamicAutoProxyConfiguration.class"
+      },
+      {
+        "pattern": "org/springframework/boot/logging/.*.properties"
+      },
+      {
+        "pattern": "org/springframework/boot/logging/.*.xml"
+      },
+      {
+        "pattern": "org/springframework/boot/logging/java/logging.properties"
+      },
+      {
+        "pattern": "org/springframework/http/mime.types"
+      },
+      {
+        "pattern": "org/springframework/web/util/HtmlCharacterEntityReferences.properties"
+      },
+      {
+        "pattern": "schema.sql"
+      },
+      {
+        "pattern": "spring.properties"
+      }
+    ]
+  },
+  "bundles": [
+    {
+      "name": "org.aspectj.weaver.weaver-messages"
+    },
+    {
+      "name": "org.hibernate.validator.ValidationMessages"
+    }
+  ]
+}

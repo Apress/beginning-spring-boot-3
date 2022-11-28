@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter-06/springboot-mybatis-demo/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/chapter-01/springmvc-jpa-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter-12/springblog-security-mvc-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/chapter-13/springblog-actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/jhipster-blog/pom.xml" />
+        <option value="$PROJECT_DIR$/springblog-jdbc-with-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/springblog-native/pom.xml" />
+        <option value="$PROJECT_DIR$/springblog-security-mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/springblog-webflux/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-basic/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="openjdk-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

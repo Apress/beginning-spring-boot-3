@@ -1,0 +1,4 @@
+com\apress\demo\SpringbootMyBatisDemoApplication.class
+com\apress\demo\mappers\UserAnnotationMapper.class
+com\apress\demo\mappers\UserMapper.class
+com\apress\demo\domain\User.class

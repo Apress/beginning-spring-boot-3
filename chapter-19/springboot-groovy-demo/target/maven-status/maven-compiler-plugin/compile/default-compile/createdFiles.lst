@@ -1,0 +1,4 @@
+com\apress\springbootgroovydemo\User.class
+com\apress\springbootgroovydemo\UserRepository.class
+com\apress\springbootgroovydemo\HomeController.class
+com\apress\springbootgroovydemo\SpringbootGroovyDemoApplication.class

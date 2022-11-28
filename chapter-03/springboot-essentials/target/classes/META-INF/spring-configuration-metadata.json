@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "jdbc",
+      "type": "com.apress.demo.DataSourceConfig",
+      "sourceType": "com.apress.demo.DataSourceConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jdbc.driver",
+      "type": "java.lang.String",
+      "sourceType": "com.apress.demo.DataSourceConfig"
+    },
+    {
+      "name": "jdbc.password",
+      "type": "java.lang.String",
+      "sourceType": "com.apress.demo.DataSourceConfig"
+    },
+    {
+      "name": "jdbc.url",
+      "type": "java.lang.String",
+      "sourceType": "com.apress.demo.DataSourceConfig"
+    },
+    {
+      "name": "jdbc.username",
+      "type": "java.lang.String",
+      "sourceType": "com.apress.demo.DataSourceConfig"
+    }
+  ],
+  "hints": []
+}

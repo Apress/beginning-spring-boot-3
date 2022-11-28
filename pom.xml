@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.apress</groupId>
+    <artifactId>beginning-spring-boot-3</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.0.0</version>
+    </parent>
+
+    <modules>
+        <module>chapter-01</module>
+        <module>chapter-02</module>
+        <module>chapter-03</module>
+        <module>chapter-04</module>
+        <module>chapter-05</module>
+        <module>chapter-06</module>
+        <module>chapter-07</module>
+        <module>chapter-08</module>
+        <module>chapter-09</module>
+        <module>chapter-10</module>
+        <module>chapter-11</module>
+        <module>chapter-12</module>
+        <module>chapter-13</module>
+        <module>chapter-14</module>
+        <module>chapter-15</module>
+        <module>chapter-16</module>
+        <module>chapter-17</module>
+        <module>chapter-18</module>
+        <module>chapter-19</module>
+        <module>chapter-20</module>
+        <module>chapter-21</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+</project>

@@ -1,0 +1,12 @@
+com\apress\demo\AppConfig.class
+com\apress\demo\DatabaseTypeCondition.class
+com\apress\demo\MongoDBDatabaseTypeCondition.class
+com\apress\demo\MongoUserDAO.class
+com\apress\demo\MySQLDatabaseTypeCondition.class
+com\apress\demo\JdbcUserDAO.class
+com\apress\demo\MongoDriverNotPresentsCondition.class
+com\apress\demo\MongoDriverPresentsCondition.class
+com\apress\demo\DatabaseType.class
+com\apress\demo\MongoDbTypePropertyCondition.class
+com\apress\demo\UserDAOBeanNotPresentsCondition.class
+com\apress\demo\UserDAO.class

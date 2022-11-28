@@ -1,0 +1,13 @@
+#
+#Mon Nov 28 15:08:25 CET 2022
+com.apress.demo.springblog.exception.GlobalExceptionHandler=org.springframework.stereotype.Component
+com.apress.demo.springblog.domain.Comment=javax.persistence.Entity,javax.persistence.Table
+com.apress.demo.springblog.repository.PostRepository=org.springframework.data.repository.Repository
+com.apress.demo.springblog.service.CommentService=org.springframework.stereotype.Component
+com.apress.demo.springblog.validation.BlogPostTitleAlreadyExists=javax.validation.Constraint
+com.apress.demo.springblog.repository.CommentRepository=org.springframework.stereotype.Component,org.springframework.data.repository.Repository
+com.apress.demo.springblog.SpringblogApplication=org.springframework.stereotype.Component,org.springframework.boot.SpringBootConfiguration
+com.apress.demo.springblog.service.PostService=org.springframework.stereotype.Component
+com.apress.demo.springblog.controller.PostController=org.springframework.stereotype.Component
+com.apress.demo.springblog.config.WebConfig=org.springframework.stereotype.Component
+com.apress.demo.springblog.domain.Post=javax.persistence.Entity,javax.persistence.Table,javax.validation.Constraint

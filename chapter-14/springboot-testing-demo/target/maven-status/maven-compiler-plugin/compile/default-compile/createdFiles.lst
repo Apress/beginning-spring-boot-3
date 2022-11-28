@@ -1,0 +1,17 @@
+com\apress\demo\repositories\TodoRepository.class
+com\apress\demo\repositories\JdbcUserRepository$1.class
+com\apress\demo\controllers\AdminRestController.class
+com\apress\demo\controllers\TodoController.class
+com\apress\demo\repositories\UserRepository.class
+com\apress\demo\config\WebSecurityConfig.class
+com\apress\demo\entities\User.class
+com\apress\demo\exceptions\UserImportServiceCommunicationFailure.class
+com\apress\demo\services\UsersImporter.class
+com\apress\demo\repositories\JdbcUserRepository.class
+com\apress\demo\SpringbootTestingDemoApplication.class
+com\apress\demo\services\UserService.class
+com\apress\demo\controllers\PingController.class
+com\apress\demo\services\UsersImportService.class
+com\apress\demo\controllers\TodoRestController.class
+com\apress\demo\model\UsersImportResponse.class
+com\apress\demo\entities\Todo.class

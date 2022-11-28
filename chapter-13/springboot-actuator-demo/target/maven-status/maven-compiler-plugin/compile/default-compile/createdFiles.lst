@@ -1,0 +1,8 @@
+com\apress\demo\healthchecks\FeedServerHealthIndicator.class
+com\apress\demo\services\GitHubService.class
+com\apress\demo\models\GitHubUser.class
+com\apress\demo\repositories\UserRepository.class
+com\apress\demo\entities\User.class
+com\apress\demo\services\LoginService.class
+com\apress\demo\controllers\HomeController.class
+com\apress\demo\SpringbootActuatorDemoApplication.class

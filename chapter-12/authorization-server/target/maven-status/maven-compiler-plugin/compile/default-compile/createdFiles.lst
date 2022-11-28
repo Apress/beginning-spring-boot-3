@@ -1,0 +1,6 @@
+com\apress\auth\server\config\AuthServerConfiguration.class
+com\apress\auth\server\domain\User.class
+com\apress\auth\server\domain\User$UserBuilder.class
+com\apress\auth\server\AuthServerApplication.class
+com\apress\auth\server\repository\UserRepository.class
+com\apress\auth\server\config\SecurityConfiguration.class

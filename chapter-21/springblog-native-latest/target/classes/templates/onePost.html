@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      lang="en">
+<head>
+    <title>Spring Blog</title>
+</head>
+
+<body>
+<div th:object="post">
+    <h1 th:text="${post.title}"></h1>
+    <h3 th:text="${post.description}"></h3>
+    <div th:text="${post.body}"></div>
+</div>
+</body>
+</html>

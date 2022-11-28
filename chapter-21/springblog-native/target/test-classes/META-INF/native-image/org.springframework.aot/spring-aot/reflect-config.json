@@ -1,0 +1,5226 @@
+[
+  {
+    "name": "antlr.CommonAST",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "antlr.CommonToken",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "boolean"
+  },
+  {
+    "name": "ch.qos.logback.classic.pattern.DateConverter",
+    "condition": {
+      "typeReachable": "ch.qos.logback.classic.Level"
+    },
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.classic.pattern.LevelConverter",
+    "condition": {
+      "typeReachable": "ch.qos.logback.classic.Level"
+    },
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.classic.pattern.LineSeparatorConverter",
+    "condition": {
+      "typeReachable": "ch.qos.logback.classic.Level"
+    },
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.classic.pattern.LoggerConverter",
+    "condition": {
+      "typeReachable": "ch.qos.logback.classic.Level"
+    },
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.classic.pattern.MDCConverter",
+    "condition": {
+      "typeReachable": "ch.qos.logback.classic.Level"
+    },
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.classic.pattern.MessageConverter",
+    "condition": {
+      "typeReachable": "ch.qos.logback.classic.Level"
+    },
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.classic.pattern.ThreadConverter",
+    "condition": {
+      "typeReachable": "ch.qos.logback.classic.Level"
+    },
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.core.rolling.helper.DateTokenConverter",
+    "condition": {
+      "typeReachable": "ch.qos.logback.classic.Level"
+    },
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "ch.qos.logback.core.rolling.helper.IntegerTokenConverter",
+    "condition": {
+      "typeReachable": "ch.qos.logback.classic.Level"
+    },
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.apress.demo.springblog.SpringblogApplication",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "com.apress.demo.springblog.domain.Comment",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.apress.demo.springblog.domain.Post",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allDeclaredClasses": true
+  },
+  {
+    "name": "com.apress.demo.springblog.domain.Post$PostBuilder",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.apress.demo.springblog.domain.PostStatus",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "fields": [
+      {
+        "name": "DRAFT",
+        "allowWrite": true,
+        "allowUnsafeAccess": true
+      },
+      {
+        "name": "PUBLISHED",
+        "allowWrite": true,
+        "allowUnsafeAccess": true
+      }
+    ]
+  },
+  {
+    "name": "com.apress.demo.springblog.domain.PostStatus[]",
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.apress.demo.springblog.repository.CommentRepository",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "com.apress.demo.springblog.repository.CommentRepository$$SpringProxy$10291980",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "com.apress.demo.springblog.repository.PostRepository",
+    "allPublicMethods": true
+  },
+  {
+    "name": "com.zaxxer.hikari.HikariConfig",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "com.zaxxer.hikari.HikariConfigMXBean",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "com.zaxxer.hikari.HikariDataSource",
+    "condition": {
+      "typeReachable": "com.zaxxer.hikari.HikariDataSource"
+    },
+    "allDeclaredConstructors": true,
+    "allPublicConstructors": true
+  },
+  {
+    "name": "com.zaxxer.hikari.util.ConcurrentBag$IConcurrentBagEntry",
+    "allPublicMethods": true
+  },
+  {
+    "name": "com.zaxxer.hikari.util.ConcurrentBag$IConcurrentBagEntry[]",
+    "condition": {
+      "typeReachable": "com.zaxxer.hikari.HikariDataSource"
+    }
+  },
+  {
+    "name": "int"
+  },
+  {
+    "name": "java.io.Serializable"
+  },
+  {
+    "name": "java.lang.Boolean"
+  },
+  {
+    "name": "java.lang.Class"
+  },
+  {
+    "name": "java.lang.ClassLoader"
+  },
+  {
+    "name": "java.lang.Comparable"
+  },
+  {
+    "name": "java.lang.Integer"
+  },
+  {
+    "name": "java.lang.Module",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "java.lang.Number"
+  },
+  {
+    "name": "java.lang.Object"
+  },
+  {
+    "name": "java.lang.String"
+  },
+  {
+    "name": "java.lang.Throwable",
+    "condition": {
+      "typeReachable": "org.springframework.data.mapping.context.MappingContext"
+    },
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "java.lang.constant.Constable"
+  },
+  {
+    "name": "java.lang.constant.ConstantDesc"
+  },
+  {
+    "name": "java.nio.charset.Charset"
+  },
+  {
+    "name": "java.sql.DatabaseMetaData",
+    "methods": [
+      {
+        "name": "getDatabaseProductName",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "java.sql.Statement",
+    "allPublicMethods": true
+  },
+  {
+    "name": "java.sql.Statement[]",
+    "condition": {
+      "typeReachable": "com.zaxxer.hikari.HikariDataSource"
+    }
+  },
+  {
+    "name": "java.time.Duration"
+  },
+  {
+    "name": "java.util.ArrayList",
+    "condition": {
+      "typeReachable": "org.springframework.boot.SpringApplication"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "java.util.Collection",
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "java.util.EventListener",
+    "allPublicMethods": true
+  },
+  {
+    "name": "java.util.LinkedHashSet",
+    "condition": {
+      "typeReachable": "org.springframework.boot.SpringApplication"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "java.util.List",
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "java.util.Map"
+  },
+  {
+    "name": "java.util.Properties",
+    "condition": {
+      "typeReachable": "org.springframework.data.mapping.context.MappingContext"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "java.util.logging.LogManager",
+    "condition": {
+      "typeReachable": "org.springframework.boot.SpringApplication"
+    },
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.annotation.PostConstruct",
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.annotation.Resource",
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.persistence.Column",
+    "allPublicConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.persistence.Entity",
+    "allPublicConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.persistence.EntityManager",
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.persistence.EntityManagerFactory",
+    "methods": [
+      {
+        "name": "getMetamodel",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "javax.persistence.GeneratedValue",
+    "allPublicConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.persistence.Id",
+    "allPublicConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.persistence.InheritanceType",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "javax.persistence.JoinColumn",
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.persistence.ManyToOne",
+    "allPublicConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.persistence.MappedSuperclass",
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.persistence.NamedEntityGraph"
+  },
+  {
+    "name": "javax.persistence.OneToMany",
+    "allPublicConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.persistence.OneToOne",
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.persistence.PersistenceContext",
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.persistence.Table",
+    "allPublicConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.persistence.TableGenerator",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "javax.persistence.Transient",
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.servlet.Servlet",
+    "condition": {
+      "typeReachable": "org.springframework.boot.test.context.SpringBootTestContextBootstrapper"
+    }
+  },
+  {
+    "name": "javax.transaction.Transactional",
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.validation.Validator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "javax.validation.ValidatorFactory",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.validation.bootstrap.GenericBootstrap",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.validation.constraints.AssertFalse",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.validation.constraints.AssertTrue",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.validation.constraints.DecimalMax",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.validation.constraints.DecimalMin",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.validation.constraints.Digits",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.validation.constraints.Email",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.validation.constraints.Future",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.validation.constraints.FutureOrPresent",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.validation.constraints.Max",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.validation.constraints.Min",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.validation.constraints.Negative",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.validation.constraints.NegativeOrZero",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.validation.constraints.NotBlank",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.validation.constraints.NotEmpty",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.validation.constraints.NotNull",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.validation.constraints.Null",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.validation.constraints.Past",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.validation.constraints.PastOrPresent",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.validation.constraints.Pattern",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.validation.constraints.Positive",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.validation.constraints.PositiveOrZero",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "javax.validation.constraints.Size",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.apache.coyote.AbstractProtocol",
+    "condition": {
+      "typeReachable": "org.apache.catalina.startup.Tomcat"
+    },
+    "methods": [
+      {
+        "name": "getLocalPort",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.apache.coyote.http11.Http11NioProtocol",
+    "condition": {
+      "typeReachable": "org.apache.catalina.startup.Tomcat"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.apache.logging.log4j.message.DefaultFlowMessageFactory",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.apache.logging.log4j.message.ParameterizedMessageFactory",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.apache.logging.log4j.message.ReusableMessageFactory",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.apache.tomcat.websocket.server.WsHttpUpgradeHandler",
+    "condition": {
+      "typeReachable": "org.apache.tomcat.websocket.server.WsHttpUpgradeHandler"
+    }
+  },
+  {
+    "name": "org.aspectj.lang.annotation.After",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.aspectj.lang.annotation.AfterReturning",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.aspectj.lang.annotation.Around",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.aspectj.lang.annotation.Aspect",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.aspectj.lang.annotation.Before",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.aspectj.lang.annotation.Pointcut",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.h2.store.fs.async.FilePathAsync",
+    "condition": {
+      "typeReachable": "org.h2.Driver"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.h2.store.fs.disk.FilePathDisk",
+    "condition": {
+      "typeReachable": "org.h2.Driver"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.h2.store.fs.mem.FilePathMem",
+    "condition": {
+      "typeReachable": "org.h2.Driver"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.h2.store.fs.mem.FilePathMemLZF",
+    "condition": {
+      "typeReachable": "org.h2.Driver"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.h2.store.fs.niomapped.FilePathNioMapped",
+    "condition": {
+      "typeReachable": "org.h2.Driver"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.h2.store.fs.niomem.FilePathNioMem",
+    "condition": {
+      "typeReachable": "org.h2.Driver"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.h2.store.fs.niomem.FilePathNioMemLZF",
+    "condition": {
+      "typeReachable": "org.h2.Driver"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.h2.store.fs.retry.FilePathRetryOnInterrupt",
+    "condition": {
+      "typeReachable": "org.h2.Driver"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.h2.store.fs.split.FilePathSplit",
+    "condition": {
+      "typeReachable": "org.h2.Driver"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.h2.store.fs.zip.FilePathZip",
+    "condition": {
+      "typeReachable": "org.h2.Driver"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hamcrest.TypeSafeDiagnosingMatcher",
+    "condition": {
+      "typeReachable": "org.hamcrest.Matcher"
+    },
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.hamcrest.TypeSafeMatcher",
+    "condition": {
+      "typeReachable": "org.hamcrest.Matcher"
+    },
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.hamcrest.beans.HasProperty",
+    "condition": {
+      "typeReachable": "org.hamcrest.Matcher"
+    },
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.hamcrest.beans.HasPropertyWithValue",
+    "condition": {
+      "typeReachable": "org.hamcrest.Matcher"
+    },
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.hibernate.Session",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.hibernate.annotations.Tuplizer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.annotations.common.util.impl.Log",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.hibernate.annotations.common.util.impl.Log_$logger",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.bytecode.enhance.spi.interceptor.BytecodeInterceptorLogging_$logger",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.cache.spi.access.CollectionDataAccess",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.hibernate.cfg.beanvalidation.TypeSafeActivator",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.hibernate.dialect.H2Dialect",
+    "condition": {
+      "typeReachable": "org.h2.Driver"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.event.spi.AutoFlushEventListener[]",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.event.spi.ClearEventListener[]",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.event.spi.DeleteEventListener[]",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.event.spi.DirtyCheckEventListener[]",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.event.spi.EventType",
+    "allDeclaredFields": true
+  },
+  {
+    "name": "org.hibernate.event.spi.EventType[]",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.event.spi.EvictEventListener[]",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.event.spi.FlushEntityEventListener[]",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.event.spi.FlushEventListener[]",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.event.spi.InitializeCollectionEventListener[]",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.event.spi.LoadEventListener[]",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.event.spi.LockEventListener[]",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.event.spi.MergeEventListener[]",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.event.spi.PersistEventListener[]",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.event.spi.PostCollectionRecreateEventListener[]",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.event.spi.PostCollectionRemoveEventListener[]",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.event.spi.PostCollectionUpdateEventListener[]",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.event.spi.PostDeleteEventListener[]",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.event.spi.PostInsertEventListener[]",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.event.spi.PostLoadEventListener[]",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.event.spi.PostUpdateEventListener[]",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.event.spi.PreCollectionRecreateEventListener[]",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.event.spi.PreCollectionRemoveEventListener[]",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.event.spi.PreCollectionUpdateEventListener[]",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.event.spi.PreLoadEventListener[]",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.event.spi.PreUpdateEventListener[]",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.event.spi.RefreshEventListener[]",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.event.spi.ReplicateEventListener[]",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.event.spi.ResolveNaturalIdEventListener[]",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.event.spi.SaveOrUpdateEventListener[]",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.antlr.HqlTokenTypes",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.antlr.SqlTokenTypes",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.HqlToken",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.AbstractMapComponentNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.AbstractNullnessCheckNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.AbstractRestrictableStatement",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.AbstractSelectExpression",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.AbstractStatement",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.AggregateNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.AggregatedSelectExpression",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.AssignmentSpecification",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.BetweenOperatorNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.BinaryArithmeticOperatorNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.BinaryLogicOperatorNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.BinaryOperatorNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.BooleanLiteralNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.CastFunctionNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.CollectionFunction",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.CollectionPathNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.CollectionPropertyReference",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.CollectionSizeNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.ComponentJoin",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.ConstructorNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.CountNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.DeleteStatement",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.DisplayableNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.DotNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.EntityJoinFromElement",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.ExpectedTypeAwareNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.FromClause",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.FromElement",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.FromElementFactory",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.FromReferenceNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.FunctionNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.HqlSqlWalkerNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.IdentNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.ImpliedFromElement",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.InLogicOperatorNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.IndexNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.InitializeableNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.InsertStatement",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.IntoClause",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.IsNotNullLogicOperatorNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.IsNullLogicOperatorNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.JavaConstantNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.LiteralNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.MapEntryNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.MapKeyEntityFromElement",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.MapKeyNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.MapValueNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.MethodNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.Node",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.NullNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.OperatorNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.OrderByClause",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.ParameterContainer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.ParameterNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.PathNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.QueryNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.ResolvableNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.RestrictableStatement",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.ResultVariableRefNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.SearchedCaseNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.SelectClause",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.SelectExpression",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.SelectExpressionImpl",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.SelectExpressionList",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.SessionFactoryAwareNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.SimpleCaseNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.SqlFragment",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.SqlNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.Statement",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.TableReferenceNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.UnaryArithmeticNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.UnaryLogicOperatorNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.UnaryOperatorNode",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.hql.internal.ast.tree.UpdateStatement",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.id.Assigned",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.id.ForeignGenerator",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.id.GUIDGenerator",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.id.IdentityGenerator",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.id.IncrementGenerator",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.id.SelectGenerator",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.id.SequenceHiLoGenerator",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.id.SequenceIdentityGenerator",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.id.UUIDGenerator",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.id.UUIDHexGenerator",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.id.enhanced.SequenceStyleGenerator",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.internal.CoreMessageLogger_$logger",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.internal.EntityManagerMessageLogger",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.hibernate.internal.EntityManagerMessageLogger_$logger",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.internal.SessionImpl",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.jpa.HibernateEntityManager",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.hibernate.jpa.HibernateEntityManagerFactory",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.hibernate.mapping.PersistentClass",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.persister.collection.BasicCollectionPersister",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.persister.collection.OneToManyPersister",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.persister.entity.JoinedSubclassEntityPersister",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.persister.entity.SingleTableEntityPersister",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.persister.entity.UnionSubclassEntityPersister",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.persister.spi.PersisterCreationContext",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.hibernate.query.QueryProducer",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.hibernate.query.spi.QueryImplementor",
+    "condition": {
+      "typeReachable": "org.hibernate.Session"
+    },
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.sql.ordering.antlr.CollationSpecification",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.sql.ordering.antlr.GeneratedOrderByFragmentRendererTokenTypes",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.sql.ordering.antlr.NodeSupport",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.sql.ordering.antlr.OrderByFragment",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.sql.ordering.antlr.OrderingSpecification",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.sql.ordering.antlr.SortKey",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.sql.ordering.antlr.SortSpecification",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.tuple.component.DynamicMapComponentTuplizer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.tuple.component.PojoComponentTuplizer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.tuple.entity.AbstractEntityTuplizer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.tuple.entity.EntityTuplizer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.tuple.entity.PojoEntityTuplizer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.type.EnumType",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.HibernateValidatorConfiguration",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.hibernate.validator.constraintvalidation.HibernateConstraintValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.hibernate.validator.constraintvalidators.RegexpURLValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.AbstractEmailValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.AssertFalseValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.AssertTrueValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.DigitsValidatorForCharSequence",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.DigitsValidatorForNumber",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.EmailValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.NotBlankValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.NotNullValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.NullValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.PatternValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArray",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfBoolean",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfByte",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfChar",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfDouble",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfFloat",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfInt",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfLong",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfShort",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForCharSequence",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForCollection",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForMap",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.AbstractMaxValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.AbstractMinValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForBigDecimal",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForBigInteger",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForByte",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForCharSequence",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForDouble",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForFloat",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForInteger",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForLong",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForNumber",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForShort",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForBigDecimal",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForBigInteger",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForByte",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForCharSequence",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForDouble",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForFloat",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForInteger",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForLong",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForNumber",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForShort",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.AbstractDecimalMaxValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.AbstractDecimalMinValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMaxValidatorForBigDecimal",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMaxValidatorForBigInteger",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMaxValidatorForByte",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMaxValidatorForCharSequence",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMaxValidatorForDouble",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMaxValidatorForFloat",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMaxValidatorForInteger",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMaxValidatorForLong",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMaxValidatorForNumber",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMaxValidatorForShort",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMinValidatorForBigDecimal",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMinValidatorForBigInteger",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMinValidatorForByte",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMinValidatorForCharSequence",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMinValidatorForDouble",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMinValidatorForFloat",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMinValidatorForInteger",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMinValidatorForLong",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMinValidatorForNumber",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMinValidatorForShort",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForBigDecimal",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForBigInteger",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForByte",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForCharSequence",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForDouble",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForFloat",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForInteger",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForLong",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForNumber",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForShort",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForBigDecimal",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForBigInteger",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForByte",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForCharSequence",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForDouble",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForFloat",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForInteger",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForLong",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForNumber",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForShort",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForBigDecimal",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForBigInteger",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForByte",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForCharSequence",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForDouble",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForFloat",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForInteger",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForLong",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForNumber",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForShort",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForBigDecimal",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForBigInteger",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForByte",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForCharSequence",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForDouble",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForFloat",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForInteger",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForLong",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForNumber",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForShort",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArray",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfBoolean",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfByte",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfChar",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfDouble",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfFloat",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfInt",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfLong",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfShort",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForCharSequence",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForCollection",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForMap",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.AbstractEpochBasedTimeValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.AbstractInstantBasedTimeValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.AbstractJavaTimeValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.future.AbstractFutureEpochBasedValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.future.AbstractFutureInstantBasedValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.future.AbstractFutureJavaTimeValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForCalendar",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForDate",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForHijrahDate",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForInstant",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForJapaneseDate",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForLocalDate",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForLocalDateTime",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForLocalTime",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForMinguoDate",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForMonthDay",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForOffsetDateTime",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForOffsetTime",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForThaiBuddhistDate",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForYear",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForYearMonth",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForZonedDateTime",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.AbstractFutureOrPresentEpochBasedValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.AbstractFutureOrPresentInstantBasedValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.AbstractFutureOrPresentJavaTimeValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForCalendar",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForDate",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForHijrahDate",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForInstant",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForJapaneseDate",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForLocalDate",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForLocalDateTime",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForLocalTime",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForMinguoDate",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForMonthDay",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForOffsetDateTime",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForOffsetTime",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForThaiBuddhistDate",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForYear",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForYearMonth",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForZonedDateTime",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.past.AbstractPastEpochBasedValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.past.AbstractPastInstantBasedValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.past.AbstractPastJavaTimeValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForCalendar",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForDate",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForHijrahDate",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForInstant",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForJapaneseDate",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForLocalDate",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForLocalDateTime",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForLocalTime",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForMinguoDate",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForMonthDay",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForOffsetDateTime",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForOffsetTime",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForThaiBuddhistDate",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForYear",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForYearMonth",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForZonedDateTime",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.AbstractPastOrPresentEpochBasedValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.AbstractPastOrPresentInstantBasedValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.AbstractPastOrPresentJavaTimeValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForCalendar",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForDate",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForHijrahDate",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForInstant",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForJapaneseDate",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForLocalDate",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForLocalDateTime",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForLocalTime",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForMinguoDate",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForMonthDay",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForOffsetDateTime",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForOffsetTime",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForThaiBuddhistDate",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForYear",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForYearMonth",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForZonedDateTime",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.hv.CodePointLengthValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.hv.EANValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.hv.EmailValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.hv.ISBNValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.hv.LengthValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.hv.LuhnCheckValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.hv.Mod10CheckValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.hv.Mod11CheckValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.hv.NormalizedValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.hv.NotBlankValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.hv.URLValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.hv.UniqueElementsValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.hv.br.CNPJValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.hv.br.CPFValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.hv.pl.NIPValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.hv.pl.PESELValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.hv.pl.PolishNumberValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.hv.pl.REGONValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.hv.time.DurationMaxValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.constraintvalidators.hv.time.DurationMinValidator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.engine.ConfigurationImpl",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.engine.resolver.JPATraversableResolver",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.engine.resolver.TraversableResolvers",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.metadata.descriptor.ConstraintDescriptorImpl",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.util.logging.Log",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.util.logging.Log_$logger",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.util.logging.Messages",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.util.logging.Messages_$bundle",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredFields": true,
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.internal.xml.config.ValidationBootstrapParameters",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.messageinterpolation.AbstractMessageInterpolator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.hibernate.validator.resourceloading.PlatformResourceBundleLocator",
+    "condition": {
+      "typeReachable": "org.hibernate.validator.internal.engine.ValidatorImpl"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.slf4j.bridge.SLF4JBridgeHandler",
+    "condition": {
+      "typeReachable": "org.slf4j.bridge.SLF4JBridgeHandler"
+    }
+  },
+  {
+    "name": "org.springframework.aop.framework.AdvisedSupport",
+    "condition": {
+      "typeReachable": "org.springframework.data.auditing.AuditingHandlerSupport"
+    },
+    "allDeclaredConstructors": true,
+    "fields": [
+      {
+        "name": "targetSource"
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.aop.framework.ProxyFactoryBean",
+    "condition": {
+      "typeReachable": "org.springframework.data.auditing.AuditingHandlerSupport"
+    },
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.aop.framework.ProxyProcessorSupport",
+    "methods": [
+      {
+        "name": "setOrder",
+        "parameterTypes": [
+          "int"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.aop.target.AbstractBeanFactoryBasedTargetSource",
+    "condition": {
+      "typeReachable": "org.springframework.data.auditing.AuditingHandlerSupport"
+    },
+    "allDeclaredConstructors": true,
+    "fields": [
+      {
+        "name": "targetBeanName"
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.aop.target.LazyInitTargetSource",
+    "condition": {
+      "typeReachable": "org.springframework.data.auditing.AuditingHandlerSupport"
+    },
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.aot.SpringblogApplicationTestsContextInitializer",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.aot.TestContextBootstrapInitializer",
+    "methods": [
+      {
+        "name": "getContextLoaders",
+        "parameterTypes": []
+      },
+      {
+        "name": "getContextInitializers",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.aot.test.AotCacheAwareContextLoaderDelegate",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.aot.test.AotDependencyInjectionTestExecutionListener",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.beans.factory.BeanFactory",
+    "condition": {
+      "typeReachable": "org.springframework.data.mapping.context.MappingContext"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.beans.factory.annotation.Autowired",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.beans.factory.annotation.Qualifier",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.beans.factory.annotation.Value",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.beans.factory.aspectj.AnnotationBeanConfigurerAspect",
+    "condition": {
+      "typeReachable": "org.springframework.data.jpa.domain.support.AuditingBeanFactoryPostProcessor"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.beans.factory.config.ObjectFactoryCreatingFactoryBean",
+    "condition": {
+      "typeReachable": "org.springframework.data.auditing.AuditingHandlerSupport"
+    },
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.beans.factory.config.PropertiesFactoryBean",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.beans.factory.support.RootBeanDefinition",
+    "allDeclaredConstructors": true,
+    "fields": [
+      {
+        "name": "targetType"
+      },
+      {
+        "name": "factoryMethodReturnType"
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.SpringApplication",
+    "condition": {
+      "typeReachable": "org.springframework.boot.SpringApplication"
+    },
+    "methods": [
+      {
+        "name": "setBannerMode",
+        "parameterTypes": [
+          "org.springframework.boot.Banner$Mode"
+        ]
+      },
+      {
+        "name": "setWebApplicationType",
+        "parameterTypes": [
+          "org.springframework.boot.WebApplicationType"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.SpringBootConfiguration",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.AutoConfiguration",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.AutoConfigurationPackage",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.AutoConfigurationPackages$BasePackages",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "[Ljava.lang.String;"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.AutoConfigureAfter",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.AutoConfigureBefore",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.AutoConfigureOrder",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.EnableAutoConfiguration",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.ImportAutoConfiguration",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.SpringBootApplication",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "entityManagerFactoryBootstrapExecutorCustomizer",
+        "parameterTypes": [
+          "java.util.Map"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.data.redis.RedisUrlSyntaxFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.diagnostics.analyzer.NoSuchBeanDefinitionFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.integration.IntegrationPropertiesEnvironmentPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$PooledDataSourceConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.DataSourceBeanCreationFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "dataSource",
+        "parameterTypes": [
+          "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration$Hikari",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "javax.sql.DataSource",
+          "org.springframework.beans.factory.ObjectProvider"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$Xa",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration$JdbcTransactionManagerConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "transactionManager",
+        "parameterTypes": [
+          "org.springframework.core.env.Environment",
+          "javax.sql.DataSource",
+          "org.springframework.beans.factory.ObjectProvider"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.HikariDriverConfigurationFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.JdbcProperties",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.JdbcProperties$Template",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.JdbcTemplateConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "jdbcTemplate",
+        "parameterTypes": [
+          "javax.sql.DataSource",
+          "org.springframework.boot.autoconfigure.jdbc.JdbcProperties"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.NamedParameterJdbcTemplateConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "namedParameterJdbcTemplate",
+        "parameterTypes": [
+          "org.springframework.jdbc.core.JdbcTemplate"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "hikariPoolDataSourceMetadataProvider",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.jooq.NoDslContextBeanFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "javax.sql.DataSource",
+          "org.springframework.boot.autoconfigure.orm.jpa.JpaProperties",
+          "org.springframework.beans.factory.config.ConfigurableListableBeanFactory",
+          "org.springframework.beans.factory.ObjectProvider",
+          "org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties",
+          "org.springframework.beans.factory.ObjectProvider",
+          "org.springframework.beans.factory.ObjectProvider",
+          "org.springframework.beans.factory.ObjectProvider",
+          "org.springframework.beans.factory.ObjectProvider",
+          "org.springframework.beans.factory.ObjectProvider"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties$Naming",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration",
+    "methods": [
+      {
+        "name": "transactionManager",
+        "parameterTypes": [
+          "org.springframework.beans.factory.ObjectProvider"
+        ]
+      },
+      {
+        "name": "jpaVendorAdapter",
+        "parameterTypes": []
+      },
+      {
+        "name": "entityManagerFactoryBuilder",
+        "parameterTypes": [
+          "org.springframework.orm.jpa.JpaVendorAdapter",
+          "org.springframework.beans.factory.ObjectProvider",
+          "org.springframework.beans.factory.ObjectProvider"
+        ]
+      },
+      {
+        "name": "entityManagerFactory",
+        "parameterTypes": [
+          "org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.orm.jpa.JpaProperties",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.r2dbc.ConnectionFactoryBeanCreationFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.r2dbc.MissingR2dbcPoolDependencyFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.r2dbc.MultipleConnectionPoolConfigurationsFailureAnalzyer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.r2dbc.NoConnectionFactoryBeanFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.session.NonUniqueSessionRepositoryFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.sql.init.DataSourceInitializationConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "dataSourceScriptDatabaseInitializer",
+        "parameterTypes": [
+          "javax.sql.DataSource",
+          "org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.sql.init.SqlInitializationProperties",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "platformTransactionManagerCustomizers",
+        "parameterTypes": [
+          "org.springframework.beans.factory.ObjectProvider"
+        ]
+      },
+      {
+        "name": "transactionalOperator",
+        "parameterTypes": [
+          "org.springframework.transaction.ReactiveTransactionManager"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$EnableTransactionManagementConfiguration$JdkDynamicAutoProxyConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$TransactionTemplateConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "transactionTemplate",
+        "parameterTypes": [
+          "org.springframework.transaction.PlatformTransactionManager"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.autoconfigure.transaction.TransactionProperties",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.cloud.CloudFoundryVcapEnvironmentPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.ConfigDataLocation",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.ConfigDataLocation[]"
+  },
+  {
+    "name": "org.springframework.boot.context.config.ConfigDataNotFoundFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.ConfigDataProperties",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.ConfigDataProperties$Activate",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.ConfigTreeConfigDataLoader",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.ConfigTreeConfigDataLocationResolver",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.ConfigTreeConfigDataLocationResolver",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.DelegatingApplicationContextInitializer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.DelegatingApplicationListener",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.StandardConfigDataLoader",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.StandardConfigDataLocationResolver",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.config.StandardConfigDataLocationResolver",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.event.EventPublishingRunListener",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.properties.BoundConfigurationProperties",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.context.properties.ConfigurationProperties",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.context.properties.ConfigurationPropertiesBinder",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "org.springframework.context.ApplicationContext"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.context.properties.ConfigurationPropertiesBinder$Factory",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.context.properties.EnableConfigurationProperties",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.boot.context.properties.IncompatibleConfigurationFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.properties.NotConstructorBoundInjectionFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.context.properties.bind.Name",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.FailureAnalyzers",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.analyzer.BeanCurrentlyInCreationFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.analyzer.BeanDefinitionOverrideFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.analyzer.BeanNotOfRequiredTypeFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.analyzer.BindFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.analyzer.BindValidationFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.analyzer.InvalidConfigurationPropertyNameFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.analyzer.InvalidConfigurationPropertyValueFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.analyzer.MutuallyExclusiveConfigurationPropertiesFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.analyzer.NoSuchMethodFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.analyzer.NoUniqueBeanDefinitionFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.analyzer.PatternParseFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.analyzer.PortInUseFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.analyzer.UnboundConfigurationPropertyFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.diagnostics.analyzer.ValidationExceptionFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.env.RandomValuePropertySourceEnvironmentPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.env.SpringApplicationJsonEnvironmentPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.jdbc.EmbeddedDatabaseConnection",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.boot.liquibase.LiquibaseChangelogMissingFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.logging.java.JavaLoggingSystem",
+    "condition": {
+      "typeReachable": "org.springframework.boot.SpringApplication"
+    },
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.boot.logging.logback.ColorConverter",
+    "condition": {
+      "typeReachable": "ch.qos.logback.classic.Level"
+    },
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.logging.logback.ExtendedWhitespaceThrowableProxyConverter",
+    "condition": {
+      "typeReachable": "ch.qos.logback.classic.Level"
+    },
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter",
+    "condition": {
+      "typeReachable": "ch.qos.logback.classic.Level"
+    },
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.orm.jpa.JpaDatabaseInitializerDetector",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.orm.jpa.JpaDependsOnDatabaseInitializationDetector",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.reactor.DebugAgentEnvironmentPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.sql.init.DatabaseInitializationMode",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.lang.String",
+          "int"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.OverrideAutoConfiguration",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.filter.TypeExcludeFilters",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "dataSource",
+        "parameterTypes": [
+          "org.springframework.core.env.Environment"
+        ]
+      },
+      {
+        "name": "embeddedDataSourceBeanFactoryPostProcessor",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration$EmbeddedDataSourceFactoryBean",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      },
+      {
+        "name": "testEntityManager",
+        "parameterTypes": [
+          "javax.persistence.EntityManagerFactory"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.test.context.ImportsContextCustomizer$ImportsCleanupPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.context.SpringBootContextLoader",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.context.SpringBootTest",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.boot.test.context.SpringBootTest$WebEnvironment",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.json.AbstractJsonMarshalTester",
+    "condition": {
+      "typeReachable": "org.springframework.boot.test.json.AbstractJsonMarshalTester"
+    },
+    "allDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "initialize",
+        "parameterTypes": [
+          "java.lang.Class",
+          "org.springframework.core.ResolvableType"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.test.json.BasicJsonTester",
+    "condition": {
+      "typeReachable": "org.springframework.boot.test.json.BasicJsonTester"
+    },
+    "allDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "initialize",
+        "parameterTypes": [
+          "java.lang.Class"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.test.json.JacksonTester",
+    "condition": {
+      "typeReachable": "org.springframework.boot.test.json.JacksonTester"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.json.JsonbTester"
+  },
+  {
+    "name": "org.springframework.boot.test.mock.mockito.MockitoPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.mock.mockito.MockitoPostProcessor$SpyPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.web.SpringBootTestRandomPortEnvironmentPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer$TestRestTemplateFactory",
+    "condition": {
+      "typeReachable": "org.springframework.boot.test.web.client.TestRestTemplateContextCustomizerFactory"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer$TestRestTemplateRegistrar",
+    "condition": {
+      "typeReachable": "org.springframework.boot.test.web.client.TestRestTemplateContextCustomizerFactory"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.web.reactive.server.WebTestClientContextCustomizer$WebTestClientFactory",
+    "condition": {
+      "typeReachable": "org.springframework.boot.test.web.reactive.server.WebTestClientContextCustomizerFactory"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.test.web.reactive.server.WebTestClientContextCustomizer$WebTestClientRegistrar",
+    "condition": {
+      "typeReachable": "org.springframework.boot.test.web.reactive.server.WebTestClientContextCustomizerFactory"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.validation.beanvalidation.MethodValidationExcludeFilter",
+    "methods": [
+      {
+        "name": "byAnnotation",
+        "parameterTypes": [
+          "java.lang.Class"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.boot.web.context.MissingWebServerFactoryBeanFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.web.embedded.tomcat.ConnectorStartFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedWebappClassLoader",
+    "condition": {
+      "typeReachable": "org.apache.catalina.startup.Tomcat"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.context.annotation.AutoProxyRegistrar",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.context.annotation.ComponentScan",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.context.annotation.Configuration",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.core.annotation.AliasFor",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.core.annotation.Order",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.core.annotation.TypeMappedAnnotation[]"
+  },
+  {
+    "name": "org.springframework.core.io.InputStreamSource[]",
+    "condition": {
+      "typeReachable": "org.springframework.data.mapping.context.MappingContext"
+    }
+  },
+  {
+    "name": "org.springframework.core.io.support.PropertiesLoaderSupport",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.data.auditing.AuditingHandler",
+    "condition": {
+      "typeReachable": "org.springframework.data.jpa.domain.support.AuditingBeanFactoryPostProcessor"
+    },
+    "allDeclaredConstructors": true,
+    "fields": [
+      {
+        "name": "auditorAware"
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.data.auditing.AuditingHandlerSupport",
+    "condition": {
+      "typeReachable": "org.springframework.data.auditing.AuditingHandlerSupport"
+    },
+    "allDeclaredConstructors": true,
+    "fields": [
+      {
+        "name": "dateTimeForNow"
+      },
+      {
+        "name": "dateTimeProvider"
+      },
+      {
+        "name": "modifyOnCreation"
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.data.auditing.IsNewAwareAuditingHandler",
+    "condition": {
+      "typeReachable": "org.springframework.data.jpa.domain.support.AuditingBeanFactoryPostProcessor"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.data.convert.ReadingConverter",
+    "condition": {
+      "typeReachable": "org.springframework.data.mapping.context.MappingContext"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.data.convert.WritingConverter",
+    "condition": {
+      "typeReachable": "org.springframework.data.mapping.context.MappingContext"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.data.jpa.domain.support.AuditingBeanFactoryPostProcessor",
+    "condition": {
+      "typeReachable": "org.springframework.data.jpa.domain.support.AuditingBeanFactoryPostProcessor"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.data.jpa.domain.support.AuditingEntityListener",
+    "condition": {
+      "typeReachable": "org.springframework.data.jpa.domain.support.AuditingBeanFactoryPostProcessor"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.data.jpa.repository.JpaRepository",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.data.jpa.repository.Query",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.data.jpa.repository.config.JpaMetamodelMappingContextFactoryBean",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.data.jpa.repository.query.JpaQueryMethodFactory",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.data.jpa.repository.support.DefaultJpaContext",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.util.Set"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.data.jpa.repository.support.EntityManagerBeanDefinitionRegistrarPostProcessor",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.data.jpa.repository.support.JpaEvaluationContextExtension",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.data.jpa.repository.support.JpaRepositoryFactory",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.data.jpa.repository.support.SimpleJpaRepository",
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.data.jpa.util.JpaMetamodelCacheCleanup",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.data.mapping.context.MappingContext",
+    "condition": {
+      "typeReachable": "org.springframework.data.mapping.context.MappingContext"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.data.projection.SpelEvaluatingMethodInterceptor$TargetWrapper",
+    "condition": {
+      "typeReachable": "org.springframework.data.mapping.context.MappingContext"
+    },
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.data.repository.CrudRepository",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.data.repository.PagingAndSortingRepository",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.data.repository.Repository",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.data.repository.core.RepositoryMetadata",
+    "condition": {
+      "typeReachable": "org.springframework.data.mapping.context.MappingContext"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.data.repository.core.support.PropertiesBasedNamedQueries",
+    "condition": {
+      "typeReachable": "org.springframework.data.mapping.context.MappingContext"
+    },
+    "allDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.util.Properties"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport",
+    "condition": {
+      "typeReachable": "org.springframework.data.mapping.context.MappingContext"
+    },
+    "allDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "setQueryLookupStrategyKey",
+        "parameterTypes": [
+          "org.springframework.data.repository.query.QueryLookupStrategy$Key"
+        ]
+      },
+      {
+        "name": "setLazyInit",
+        "parameterTypes": [
+          "boolean"
+        ]
+      },
+      {
+        "name": "setNamedQueries",
+        "parameterTypes": [
+          "org.springframework.data.repository.core.NamedQueries"
+        ]
+      },
+      {
+        "name": "setRepositoryFragments",
+        "parameterTypes": [
+          "org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.data.repository.core.support.RepositoryFragment",
+    "condition": {
+      "typeReachable": "org.springframework.data.mapping.context.MappingContext"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.data.repository.core.support.RepositoryFragmentsFactoryBean",
+    "condition": {
+      "typeReachable": "org.springframework.data.mapping.context.MappingContext"
+    },
+    "allDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.util.List"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.data.repository.core.support.TransactionalRepositoryFactoryBeanSupport",
+    "condition": {
+      "typeReachable": "org.springframework.data.mapping.context.MappingContext"
+    },
+    "allDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "setTransactionManager",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      },
+      {
+        "name": "setEnableDefaultTransactions",
+        "parameterTypes": [
+          "boolean"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.data.repository.query.QueryByExampleExecutor",
+    "condition": {
+      "typeReachable": "org.springframework.data.mapping.context.MappingContext"
+    },
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.http.HttpStatus",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.http.client.AbstractClientHttpRequestFactoryWrapper",
+    "condition": {
+      "typeReachable": "org.springframework.http.client.AbstractClientHttpRequestFactoryWrapper"
+    },
+    "allDeclaredFields": true
+  },
+  {
+    "name": "org.springframework.http.client.SimpleClientHttpRequestFactory",
+    "condition": {
+      "typeReachable": "org.springframework.http.client.SimpleClientHttpRequestFactory"
+    },
+    "allDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "setConnectTimeout",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "setReadTimeout",
+        "parameterTypes": [
+          "int"
+        ]
+      },
+      {
+        "name": "setBufferRequestBody",
+        "parameterTypes": [
+          "boolean"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.lang.String",
+          "int"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.nativex.ClassNotFoundExceptionNativeFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.nativex.GeneratedClassNotFoundExceptionFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.nativex.NoSuchMethodExceptionNativeFailureAnalyzer",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.nativex.hint.AotProxyHint",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.nativex.hint.FieldHint",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.nativex.hint.InitializationHint",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.nativex.hint.JdkProxyHint",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.nativex.hint.MethodHint",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.nativex.hint.NativeHint",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.nativex.hint.ResourceHint",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.nativex.hint.SerializationHint",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.nativex.hint.TypeAccess"
+  },
+  {
+    "name": "org.springframework.nativex.hint.TypeHint",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.orm.jpa.SharedEntityManagerCreator",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.orm.jpa.vendor.Database",
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": [
+          "java.lang.String",
+          "int"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.stereotype.Component",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.stereotype.Controller",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.stereotype.Repository",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.stereotype.Service",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.ActiveProfiles",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.BootstrapWith",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.ContextConfiguration",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.ContextHierarchy",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.DynamicPropertySource",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.NestedTestConfiguration",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.TestConstructor",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.TestExecutionListeners",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.TestPropertySource",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.test.context.event.ApplicationEventsTestExecutionListener",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.test.context.event.EventPublishingTestExecutionListener",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.test.context.event.RecordApplicationEvents",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.jdbc.Sql",
+    "condition": {
+      "typeReachable": "org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.jdbc.SqlConfig",
+    "condition": {
+      "typeReachable": "org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.jdbc.SqlGroup",
+    "condition": {
+      "typeReachable": "org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.jdbc.SqlMergeMode",
+    "condition": {
+      "typeReachable": "org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.test.context.junit.jupiter.DisabledIf",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.junit.jupiter.EnabledIf",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.junit.jupiter.SpringExtension",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.test.context.junit.jupiter.SpringJUnitConfig",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.support.DefaultBootstrapContext",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.test.context.support.DefaultTestContextBootstrapper",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.test.context.support.DelegatingSmartContextLoader",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.test.context.support.DirtiesContextTestExecutionListener",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.test.context.transaction.AfterTransaction",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.transaction.BeforeTransaction",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.transaction.TransactionalTestExecutionListener",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.test.context.web.ServletTestExecutionListener",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.test.context.web.WebAppConfiguration",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.test.context.web.WebTestContextBootstrapper",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.test.web.client.SimpleRequestExpectationManager",
+    "condition": {
+      "typeReachable": "org.springframework.boot.test.web.client.MockServerRestTemplateCustomizer"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.transaction.TransactionDefinition",
+    "condition": {
+      "typeReachable": "org.springframework.transaction.TransactionDefinition"
+    },
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration",
+    "methods": [
+      {
+        "name": "setConfigurers",
+        "parameterTypes": [
+          "java.util.Collection"
+        ]
+      },
+      {
+        "name": "transactionalEventListenerFactory",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.transaction.annotation.EnableTransactionManagement",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.transaction.annotation.Propagation",
+    "allDeclaredFields": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration",
+    "allDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "transactionAdvisor",
+        "parameterTypes": [
+          "org.springframework.transaction.interceptor.TransactionAttributeSource",
+          "org.springframework.transaction.interceptor.TransactionInterceptor"
+        ]
+      },
+      {
+        "name": "transactionAttributeSource",
+        "parameterTypes": []
+      },
+      {
+        "name": "transactionInterceptor",
+        "parameterTypes": [
+          "org.springframework.transaction.interceptor.TransactionAttributeSource"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "org.springframework.transaction.annotation.Transactional",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor$1",
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.springframework.validation.beanvalidation.SpringValidatorAdapter$ViolationFieldError",
+    "condition": {
+      "typeReachable": "org.springframework.validation.beanvalidation.SpringValidatorAdapter"
+    },
+    "allPublicConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.DeleteMapping",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.ExceptionHandler",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.GetMapping",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.InitBinder",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.Mapping",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.ModelAttribute",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.PatchMapping",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.PathVariable",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.PostMapping",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.PutMapping",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.RequestBody",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.RequestHeader",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.RequestMapping",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.RequestMethod",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.RequestMethod[]",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.RequestParam",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.RequestPart",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.ResponseBody",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.ResponseStatus",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.RestController",
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.springframework.web.context.ConfigurableWebApplicationContext",
+    "condition": {
+      "typeReachable": "org.springframework.boot.test.context.SpringBootTestContextBootstrapper"
+    }
+  },
+  {
+    "name": "org.springframework.web.servlet.DispatcherServlet",
+    "condition": {
+      "typeReachable": "org.springframework.boot.test.context.SpringBootTestContextBootstrapper"
+    }
+  },
+  {
+    "name": "org.thymeleaf.engine.IterationStatusVar",
+    "condition": {
+      "typeReachable": "org.thymeleaf.spring5.ISpringTemplateEngine"
+    },
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.thymeleaf.expression.Aggregates",
+    "condition": {
+      "typeReachable": "org.thymeleaf.spring5.ISpringTemplateEngine"
+    },
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.thymeleaf.expression.Arrays",
+    "condition": {
+      "typeReachable": "org.thymeleaf.spring5.ISpringTemplateEngine"
+    },
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.thymeleaf.expression.Bools",
+    "condition": {
+      "typeReachable": "org.thymeleaf.spring5.ISpringTemplateEngine"
+    },
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.thymeleaf.expression.Calendars",
+    "condition": {
+      "typeReachable": "org.thymeleaf.spring5.ISpringTemplateEngine"
+    },
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.thymeleaf.expression.Conversions",
+    "condition": {
+      "typeReachable": "org.thymeleaf.spring5.ISpringTemplateEngine"
+    },
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.thymeleaf.expression.Dates",
+    "condition": {
+      "typeReachable": "org.thymeleaf.spring5.ISpringTemplateEngine"
+    },
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.thymeleaf.expression.ExecutionInfo",
+    "condition": {
+      "typeReachable": "org.thymeleaf.spring5.ISpringTemplateEngine"
+    },
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.thymeleaf.expression.Ids",
+    "condition": {
+      "typeReachable": "org.thymeleaf.spring5.ISpringTemplateEngine"
+    },
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.thymeleaf.expression.Lists",
+    "condition": {
+      "typeReachable": "org.thymeleaf.spring5.ISpringTemplateEngine"
+    },
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.thymeleaf.expression.Maps",
+    "condition": {
+      "typeReachable": "org.thymeleaf.spring5.ISpringTemplateEngine"
+    },
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.thymeleaf.expression.Messages",
+    "condition": {
+      "typeReachable": "org.thymeleaf.spring5.ISpringTemplateEngine"
+    },
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.thymeleaf.expression.Numbers",
+    "condition": {
+      "typeReachable": "org.thymeleaf.spring5.ISpringTemplateEngine"
+    },
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.thymeleaf.expression.Objects",
+    "condition": {
+      "typeReachable": "org.thymeleaf.spring5.ISpringTemplateEngine"
+    },
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.thymeleaf.expression.Sets",
+    "condition": {
+      "typeReachable": "org.thymeleaf.spring5.ISpringTemplateEngine"
+    },
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.thymeleaf.expression.Strings",
+    "condition": {
+      "typeReachable": "org.thymeleaf.spring5.ISpringTemplateEngine"
+    },
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.thymeleaf.expression.Uris",
+    "condition": {
+      "typeReachable": "org.thymeleaf.spring5.ISpringTemplateEngine"
+    },
+    "allDeclaredConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.thymeleaf.extras.java8time.expression.Temporals",
+    "condition": {
+      "typeReachable": "org.thymeleaf.spring5.ISpringTemplateEngine"
+    },
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.thymeleaf.spring5.expression.Fields",
+    "condition": {
+      "typeReachable": "org.thymeleaf.spring5.ISpringTemplateEngine"
+    },
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.thymeleaf.spring5.expression.Mvc$NonSpring41MvcUriComponentsBuilderDelegate",
+    "condition": {
+      "typeReachable": "org.thymeleaf.spring5.ISpringTemplateEngine"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.thymeleaf.spring5.expression.Mvc$Spring41MvcUriComponentsBuilderDelegate",
+    "condition": {
+      "typeReachable": "org.thymeleaf.spring5.ISpringTemplateEngine"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver",
+    "condition": {
+      "typeReachable": "org.thymeleaf.spring5.ISpringTemplateEngine"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.thymeleaf.spring5.view.ThymeleafView",
+    "condition": {
+      "typeReachable": "org.thymeleaf.spring5.ISpringTemplateEngine"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.thymeleaf.standard.expression.AdditionExpression",
+    "condition": {
+      "typeReachable": "org.thymeleaf.spring5.ISpringTemplateEngine"
+    },
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.thymeleaf.templateresolver.AbstractConfigurableTemplateResolver",
+    "condition": {
+      "typeReachable": "org.thymeleaf.spring5.ISpringTemplateEngine"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.thymeleaf.templateresolver.AbstractTemplateResolver",
+    "condition": {
+      "typeReachable": "org.thymeleaf.spring5.ISpringTemplateEngine"
+    },
+    "allDeclaredConstructors": true
+  },
+  {
+    "name": "org.thymeleaf.templateresolver.ITemplateResolver",
+    "condition": {
+      "typeReachable": "org.thymeleaf.spring5.ISpringTemplateEngine"
+    },
+    "allPublicMethods": true
+  },
+  {
+    "name": "org.yaml.snakeyaml.Yaml",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  }
+]

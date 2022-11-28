@@ -1,0 +1,44 @@
+{
+  "groups": [
+    {
+      "name": "twitter4j",
+      "type": "com.apress.spring.boot.autoconfigure.Twitter4jProperties",
+      "sourceType": "com.apress.spring.boot.autoconfigure.Twitter4jProperties"
+    },
+    {
+      "name": "twitter4j.oauth",
+      "type": "com.apress.spring.boot.autoconfigure.Twitter4jProperties$OAuth",
+      "sourceType": "com.apress.spring.boot.autoconfigure.Twitter4jProperties",
+      "sourceMethod": "getOauth()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "twitter4j.debug",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.apress.spring.boot.autoconfigure.Twitter4jProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "twitter4j.oauth.access-token",
+      "type": "java.lang.String",
+      "sourceType": "com.apress.spring.boot.autoconfigure.Twitter4jProperties$OAuth"
+    },
+    {
+      "name": "twitter4j.oauth.access-token-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.apress.spring.boot.autoconfigure.Twitter4jProperties$OAuth"
+    },
+    {
+      "name": "twitter4j.oauth.consumer-key",
+      "type": "java.lang.String",
+      "sourceType": "com.apress.spring.boot.autoconfigure.Twitter4jProperties$OAuth"
+    },
+    {
+      "name": "twitter4j.oauth.consumer-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.apress.spring.boot.autoconfigure.Twitter4jProperties$OAuth"
+    }
+  ],
+  "hints": []
+}

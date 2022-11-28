@@ -1,0 +1,4 @@
+com\apress\spring\boot\autoconfigure\Twitter4jAutoConfiguration.class
+com\apress\spring\boot\autoconfigure\Twitter4jProperties$OAuth.class
+com\apress\spring\boot\autoconfigure\Twitter4jProperties.class
+META-INF\spring-configuration-metadata.json

@@ -1,0 +1,27 @@
+type Query {
+    allPosts: [PostPayload]
+    onePost(title: String): PostPayload
+}
+
+type Mutation {
+    createPost(postInput: PostInput): PostPayload,
+    updatePost(postInput: PostInput): PostPayload
+    deletePost(title: String): String
+}
+input PostInput {
+    id: ID
+    title: String
+    description: String
+    body: String
+    slug: String
+    postStatus: String
+}
+
+type PostPayload {
+    id: ID
+    title: String
+    description: String
+    body: String
+    slug: String
+    postStatus: String
+}

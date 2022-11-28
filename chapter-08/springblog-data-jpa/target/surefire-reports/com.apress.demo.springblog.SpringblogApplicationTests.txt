@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.apress.demo.springblog.SpringblogApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.558 s - in com.apress.demo.springblog.SpringblogApplicationTests

@@ -1,0 +1,16 @@
+2022-11-21 11:36:44,140 INFO [restartedMain] c.a.d.SpringbootEssentialsApplication [StartupInfoLogger.java:51] Starting SpringbootEssentialsApplication using Java 17.0.1 with PID 23652 (F:\playground\beginning-spring-boot-3\chapter-03\springboot-essentials\target\classes started by subra in F:\playground\beginning-spring-boot-3)
+2022-11-21 11:36:44,146 DEBUG [restartedMain] c.a.d.SpringbootEssentialsApplication [StartupInfoLogger.java:52] Running with Spring Boot v3.0.0-SNAPSHOT, Spring v6.0.0
+2022-11-21 11:36:44,146 INFO [restartedMain] c.a.d.SpringbootEssentialsApplication [SpringApplication.java:630] No active profile set, falling back to 1 default profile: "default"
+2022-11-21 11:36:44,185 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:250] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-21 11:36:44,185 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:250] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-21 11:36:44,829 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:114] Tomcat initialized with port(s): 8080 (http)
+2022-11-21 11:36:44,835 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-21 11:36:44,835 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-11-21 11:36:44,835 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/10.1.1]
+2022-11-21 11:36:44,874 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-11-21 11:36:44,874 INFO [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java:291] Root WebApplicationContext: initialization completed in 688 ms
+2022-11-21 11:36:45,007 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:52] Adding welcome page: class path resource [public/index.html]
+2022-11-21 11:36:45,087 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:59] LiveReload server is running on port 35729
+2022-11-21 11:36:45,096 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-11-21 11:36:45,118 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:226] Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-21 11:36:45,124 INFO [restartedMain] c.a.d.SpringbootEssentialsApplication [StartupInfoLogger.java:57] Started SpringbootEssentialsApplication in 1.301 seconds (process running for 2.36)

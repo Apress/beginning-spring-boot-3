@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/chapter-01/hello-springboot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-01/hello-springboot/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-02/springboot-basic/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-03/springboot-essentials/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-04/springblog/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-05/springblog-jdbc-with-springboot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-05/springblog-jdbc-without-springboot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-05/springblog-with-spring-data-jdbc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-06/springboot-mybatis-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-06/springboot-mybatis-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-07/springblog-jooq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-08/springblog-data-jpa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-09/springblog-mongodb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-10/springblog-data-rest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-10/springblog-rest-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-11/springblog-webflux-functional/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-11/springblog-webflux-r2dbc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-11/springblog-webflux/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-12/authorization-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-12/springblog-oauth2-mvc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-12/springblog-oauth2-resource-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-12/springblog-security-mvc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-13/springboot-actuator-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-14/springblog-test-containers/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-14/springboot-testing-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-15/springblog-graphql/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-16/springboot-heroku-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-17/conditional/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-18/twitter4j-spring-boot-autoconfigure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-18/twitter4j-spring-boot-sample/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-19/springboot-kotlin-demo/src/main/kotlin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-19/springboot-scala-demo/src/main/scala" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-20/jhipster-blog/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-20/jhipster-blog/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-21/springblog-native-latest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chapter-21/springblog-native/src/main/java" charset="UTF-8" />
+  </component>
+</project>

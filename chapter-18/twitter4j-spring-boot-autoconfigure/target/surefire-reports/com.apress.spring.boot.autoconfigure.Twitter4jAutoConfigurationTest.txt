@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.apress.spring.boot.autoconfigure.Twitter4jAutoConfigurationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.98 s - in com.apress.spring.boot.autoconfigure.Twitter4jAutoConfigurationTest

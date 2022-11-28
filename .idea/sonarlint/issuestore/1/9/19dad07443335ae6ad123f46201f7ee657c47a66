@@ -1,0 +1,6 @@
+
+Q
+java:S1874";Remove this use of "NoOpPasswordEncoder"; it is deprecated.(å‰ö
+Q	java:S125"<This block of commented-out lines of code should be removed.(ƒ¡îû
+€
+java:S1128"^Remove this unused import 'org.springframework.security.authentication.AuthenticationManager'.(ğş–şÿÿÿÿ8¼•¤ìË0

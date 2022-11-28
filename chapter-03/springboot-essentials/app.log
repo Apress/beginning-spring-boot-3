@@ -1,0 +1,25 @@
+2022-11-28 13:32:15,786 INFO [main] c.a.d.SpringbootEssentialsApplicationTest [StartupInfoLogger.java:51] Starting SpringbootEssentialsApplicationTest using Java 17.0.1 with PID 6200 (started by subra in F:\playground\beginning-spring-boot-3\chapter-03\springboot-essentials)
+2022-11-28 13:32:15,789 DEBUG [main] c.a.d.SpringbootEssentialsApplicationTest [StartupInfoLogger.java:52] Running with Spring Boot v3.0.0, Spring v6.0.2
+2022-11-28 13:32:15,790 INFO [main] c.a.d.SpringbootEssentialsApplicationTest [SpringApplication.java:636] The following 1 profile is active: "test"
+2022-11-28 13:32:16,666 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:52] Adding welcome page: class path resource [public/index.html]
+2022-11-28 13:32:16,779 INFO [main] c.a.d.SpringbootEssentialsApplicationTest [StartupInfoLogger.java:57] Started SpringbootEssentialsApplicationTest in 1.271 seconds (process running for 2.172)
+2022-11-28 14:35:23,870 INFO [main] c.a.d.SpringbootEssentialsApplicationTest [StartupInfoLogger.java:51] Starting SpringbootEssentialsApplicationTest using Java 17.0.1 with PID 23188 (started by subra in F:\playground\beginning-spring-boot-3\chapter-03\springboot-essentials)
+2022-11-28 14:35:23,875 DEBUG [main] c.a.d.SpringbootEssentialsApplicationTest [StartupInfoLogger.java:52] Running with Spring Boot v3.0.0, Spring v6.0.2
+2022-11-28 14:35:23,875 INFO [main] c.a.d.SpringbootEssentialsApplicationTest [SpringApplication.java:636] The following 1 profile is active: "test"
+2022-11-28 14:35:24,800 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:52] Adding welcome page: class path resource [public/index.html]
+2022-11-28 14:35:24,909 INFO [main] c.a.d.SpringbootEssentialsApplicationTest [StartupInfoLogger.java:57] Started SpringbootEssentialsApplicationTest in 1.305 seconds (process running for 2.133)
+2022-11-28 14:36:25,300 INFO [main] c.a.d.SpringbootEssentialsApplicationTest [StartupInfoLogger.java:51] Starting SpringbootEssentialsApplicationTest using Java 17.0.1 with PID 13540 (started by subra in F:\playground\beginning-spring-boot-3\chapter-03\springboot-essentials)
+2022-11-28 14:36:25,303 DEBUG [main] c.a.d.SpringbootEssentialsApplicationTest [StartupInfoLogger.java:52] Running with Spring Boot v3.0.0, Spring v6.0.2
+2022-11-28 14:36:25,303 INFO [main] c.a.d.SpringbootEssentialsApplicationTest [SpringApplication.java:636] The following 1 profile is active: "test"
+2022-11-28 14:36:26,174 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:52] Adding welcome page: class path resource [public/index.html]
+2022-11-28 14:36:26,288 INFO [main] c.a.d.SpringbootEssentialsApplicationTest [StartupInfoLogger.java:57] Started SpringbootEssentialsApplicationTest in 1.238 seconds (process running for 2.081)
+2022-11-28 14:38:04,061 INFO [main] c.a.d.SpringbootEssentialsApplicationTest [StartupInfoLogger.java:51] Starting SpringbootEssentialsApplicationTest using Java 17.0.1 with PID 3268 (started by subra in F:\playground\beginning-spring-boot-3\chapter-03\springboot-essentials)
+2022-11-28 14:38:04,064 DEBUG [main] c.a.d.SpringbootEssentialsApplicationTest [StartupInfoLogger.java:52] Running with Spring Boot v3.0.0, Spring v6.0.2
+2022-11-28 14:38:04,065 INFO [main] c.a.d.SpringbootEssentialsApplicationTest [SpringApplication.java:636] The following 1 profile is active: "test"
+2022-11-28 14:38:05,075 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:52] Adding welcome page: class path resource [public/index.html]
+2022-11-28 14:38:05,187 INFO [main] c.a.d.SpringbootEssentialsApplicationTest [StartupInfoLogger.java:57] Started SpringbootEssentialsApplicationTest in 1.389 seconds (process running for 2.303)
+2022-11-28 14:58:16,623 INFO [main] c.a.d.SpringbootEssentialsApplicationTest [StartupInfoLogger.java:51] Starting SpringbootEssentialsApplicationTest using Java 17.0.1 with PID 17880 (started by subra in F:\playground\beginning-spring-boot-3\chapter-03\springboot-essentials)
+2022-11-28 14:58:16,627 DEBUG [main] c.a.d.SpringbootEssentialsApplicationTest [StartupInfoLogger.java:52] Running with Spring Boot v3.0.0, Spring v6.0.2
+2022-11-28 14:58:16,628 INFO [main] c.a.d.SpringbootEssentialsApplicationTest [SpringApplication.java:636] The following 1 profile is active: "test"
+2022-11-28 14:58:17,544 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:52] Adding welcome page: class path resource [public/index.html]
+2022-11-28 14:58:17,656 INFO [main] c.a.d.SpringbootEssentialsApplicationTest [StartupInfoLogger.java:57] Started SpringbootEssentialsApplicationTest in 1.28 seconds (process running for 2.114)
